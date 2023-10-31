@@ -37,16 +37,12 @@ public class NumberGame {
                     score++;
                     break;
                 }
-                else if(guess > num){
-                    System.out.println("\t Ah! so close! You have guessed a number larger than the Key. Try again");
-                }
-
                 else if(guess < num){
-                    System.out.println("\t Ah! so close! You have guessed a number Smaller than the Key. Try again");
+                    System.out.println("\t Ah! so close! You have guessed a number smaller than the Key. Try again\n");
                 }
-                else{
-                    System.out.println("\t Opsie! Wrong guess. You have " + (10 - attempt) + " attempts left");
 
+                else {
+                    System.out.println("\t Ah! so close! You have guessed a number larger than the Key. Try again\n");
                 }
 
                 if(attempt>=10){
