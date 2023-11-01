@@ -89,5 +89,4 @@ public class ATM {
         Atm atm = new Atm(bank);
         atm.operation();
     }
-    
 }
